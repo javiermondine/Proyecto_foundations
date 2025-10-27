@@ -52,8 +52,6 @@ const clearButton = document.getElementById('clear');
 const backspaceButton = document.getElementById('backspace');
 const decimalButton = document.getElementById('decimal');
 
-}
-
 // Update display
 function updateDisplay(value) {
     if (value.toString().length > 12) {
@@ -204,8 +202,6 @@ equalsButton.addEventListener('click', handleEquals);
 clearButton.addEventListener('click', clearCalculator);
 backspaceButton.addEventListener('click', handleBackspace);
 decimalButton.addEventListener('click', handleDecimal);
-
-});
 
 // Keyboard support
 document.addEventListener('keydown', (e) => {
